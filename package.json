@@ -1,0 +1,27 @@
+{
+  "name": "graphql-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --transpile-only --no-notify --respawn --exit-child src/index.ts",
+    "generate": "ts-node --transpile-only src/schema.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.13",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.18",
+    "@types/graphql": "^14.5.0",
+    "apollo-server": "^3.1.1",
+    "graphql": "^15.5.1",
+    "graphql-import-node": "^0.0.5",
+    "nexus": "^1.1.0"
+  }
+}

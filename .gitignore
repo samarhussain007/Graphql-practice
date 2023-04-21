@@ -1,0 +1,28 @@
+# Dependency directories
+node_modules/
+
+# Built output
+dist/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+*~
+
+# TypeScript compiler output
+*.js
+*.map
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+
+# Miscellaneous
+*.log
+*.DS_Store
